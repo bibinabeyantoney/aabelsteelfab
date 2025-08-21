@@ -1,9 +1,39 @@
 import React from 'react'
 import Nav from './Nav'
 import Footer from './Footer'
+import Slider from "react-slick"
+import "slick-carousel/slick/slick.css"
+import "slick-carousel/slick/slick-theme.css"
 import './Css/About.css'
 
 function About() {
+const sliderSettings = {
+  dots: true,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: true,            // 👈 enables auto sliding
+  autoplaySpeed: 2000,       // 👈 2 seconds delay
+  cssEase: "linear",         // 👈 smooth sliding
+  responsive: [
+    {
+      breakpoint: 1024, // tablet
+      settings: {
+        slidesToShow: 2,
+      },
+    },
+    {
+      breakpoint: 768, // mobile
+      settings: {
+        slidesToShow: 1,
+      },
+    },
+  ],
+};
+
+
+
   return (
     <div>
       <Nav />
@@ -22,7 +52,7 @@ function About() {
             <p>
               With over 15 years of experience in steel fabrication, 
               Mr. Shyjan Varavukalayil established <strong>Aabel Steel Fabricators </strong> 
-               with a vision to provide high-quality and durable steel structures 
+              with a vision to provide high-quality and durable steel structures 
               for industries, businesses, and homes. His dedication and expertise 
               have been the driving force behind our success.
             </p>
@@ -55,11 +85,13 @@ function About() {
         {/* Gallery Section */}
         <section className="gallery-section">
           <h2>Our Work Gallery</h2>
-          <div className="gallery-grid">
-            <img src="/images/work1.png" alt="Steel Work 1" />
-            <img src="/images/work2.png" alt="Steel Work 2" />
-            <img src="/images/work3.png" alt="Steel Work 3" />
-          </div>
+          <Slider {...sliderSettings}>
+            <div><img src="/images/work1.png" alt="Steel Work 1" className="gallery-img" /></div>
+            <div><img src="/images/work2.png" alt="Steel Work 2" className="gallery-img" /></div>
+            <div><img src="/images/work3.png" alt="Steel Work 3" className="gallery-img" /></div>
+            <div><img src="/images/work4.png" alt="Steel Work 4" className="gallery-img" /></div>
+            <div><img src="/images/work5.png" alt="Steel Work 5" className="gallery-img" /></div>
+          </Slider>
         </section>
       </div>
 
