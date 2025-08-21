@@ -23,7 +23,7 @@ function Footer() {
       </div>
 
       <div className="footer-bottom">
-        <p>© 2025 MyWebsite. All Rights Reserved.</p>
+        <p>© 2025 bibinabeyantoney. All Rights Reserved.</p>
       </div>
     </footer>
   );
