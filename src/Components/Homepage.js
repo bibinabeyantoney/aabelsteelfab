@@ -8,7 +8,7 @@ function Home() {
             <Nav/>
             <div className="home-container">
                 <div className="home-content">
-                    <h1>Welcome to Aabel Steel Fabrication</h1>
+                    <h1>Welcome to Aabel Steel Fabricators</h1>
                     <p>Your trusted partner for steel works.</p>
                 </div>
             </div>

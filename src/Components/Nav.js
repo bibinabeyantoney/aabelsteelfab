@@ -7,7 +7,7 @@ function Nav() {
 
   return (
     <nav className="navbar">
-      <div className="companyname">Aabel Steel Fabrication</div>
+      <div className="companyname">Aabel Steel Fabricators</div>
 
       {/* Hamburger menu for mobile */}
       <button className="hamburger" onClick={() => setIsOpen(!isOpen)}>

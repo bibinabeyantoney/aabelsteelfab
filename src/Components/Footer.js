@@ -15,7 +15,7 @@ function Footer() {
               📘 Facebook
             </a>
             <span>|</span>
-            <a href="mailto:yourmail@gmail.com">✉️ yourmail@gmail.com</a>
+            <a href="mailto:yourmail@gmail.com">✉️ aabelsteelfabricators@gmail.com</a>
             <span>|</span>
             <a href="tel:+919876543210">📞 +91 98765 43210</a>
           </div>

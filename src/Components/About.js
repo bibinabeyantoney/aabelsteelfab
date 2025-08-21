@@ -21,7 +21,7 @@ function About() {
             <h3>Mr.Shyjan Varavukalayil</h3>
             <p>
               With over 15 years of experience in steel fabrication, 
-              Mr. Shyjan Varavukalayil established <strong>Aabel Steel Fabrication </strong> 
+              Mr. Shyjan Varavukalayil established <strong>Aabel Steel Fabricators </strong> 
                with a vision to provide high-quality and durable steel structures 
               for industries, businesses, and homes. His dedication and expertise 
               have been the driving force behind our success.
