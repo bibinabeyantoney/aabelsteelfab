@@ -1,0 +1,74 @@
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #222;
+  padding: 15px 20px;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Company Name */
+.companyname {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Links */
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #ff9800;
+}
+
+/* Active page highlight */
+.nav-links li a.active {
+  color: #ff9800;
+  font-weight: bold;
+}
+
+
+/* Hamburger */
+.hamburger {
+  display: none;
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background: #222;
+    width: 200px;
+    padding: 20px;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}

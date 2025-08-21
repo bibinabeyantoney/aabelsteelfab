@@ -1,0 +1,41 @@
+.footer {
+  background: #222;
+  color: white;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+.footer-section h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #ff9800;
+}
+
+.contact-inline {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* space between items */
+  flex-wrap: wrap; /* responsive for small screens */
+}
+
+.contact-inline a {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s;
+  font-size: 16px;
+}
+
+.contact-inline a:hover {
+  color: #ff9800;
+}
+
+.contact-inline span {
+  color: #888;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  border-top: 1px solid #444;
+  padding-top: 10px;
+  font-size: 14px;
+}
