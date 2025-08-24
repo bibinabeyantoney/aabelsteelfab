@@ -2,6 +2,7 @@ import React from "react";
 import './Css/Homepage.css'
 import Footer from "./Footer";
 import Nav from "./Nav";
+import Whatsup from "./Whatsup";
 function Home() {
   
   return (<>
@@ -12,6 +13,7 @@ function Home() {
                     <p>Your trusted partner for steel works.</p>
                 </div>
             </div>
+            <Whatsup/>
             <Footer/>    
             </>
   );
